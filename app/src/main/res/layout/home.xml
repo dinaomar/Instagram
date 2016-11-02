@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <android.support.design.widget.TabItem
+            android:icon="@drawable/home1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/homeTab"
+            />
+
+        <android.support.design.widget.TabItem
+            android:icon="@drawable/searchn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:alpha="0.05"/>
+
+        <android.support.design.widget.TabItem
+            android:icon="@drawable/cameran"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:alpha="0.05"
+            android:id="@+id/cameraTab"/>
+
+        <android.support.design.widget.TabItem
+            android:icon="@drawable/liken"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/likeTab"/>
+
+        <android.support.design.widget.TabItem
+            android:icon="@drawable/usern"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <ListView
+        android:id="@+id/listViewImages"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tab_layout"
+        />
+
+
+</RelativeLayout>
