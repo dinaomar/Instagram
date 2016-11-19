@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "902708149542",
+    "firebase_url": "https://instalike-147815.firebaseio.com",
+    "project_id": "instalike-147815",
+    "storage_bucket": "instalike-147815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902708149542:android:eb05c4144b105d7d",
+        "android_client_info": {
+          "package_name": "elcg.dina.com.instagramapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902708149542-o0e5lreb8m3ircifhn9ikapq3k8avjp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "elcg.dina.com.instagramapp",
+            "certificate_hash": "20CDBDAC16290D8E3E0EA716A2F80FE5ED4682CC"
+          }
+        },
+        {
+          "client_id": "902708149542-0i75l0kc33qfiui94ar7e9alvt94qklu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Rw8gd_OH2azi1Pij6cLlqdcw0o-DN3M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902708149542-0i75l0kc33qfiui94ar7e9alvt94qklu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

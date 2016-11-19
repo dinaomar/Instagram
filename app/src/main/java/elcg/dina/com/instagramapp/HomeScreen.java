@@ -19,6 +19,8 @@ import android.util.Log;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.storage.FirebaseStorage;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -49,6 +51,8 @@ public class HomeScreen extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+        FirebaseStorage storage = FirebaseStorage.getInstance();
 
         imgItemArray = new ArrayList<>();
         db = new DatabaseHandler(this);
